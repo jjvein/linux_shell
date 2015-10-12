@@ -8,7 +8,10 @@ Linux)
 FreeBSD)
 	echo "your system is FreeBSD"
 ;;
-*)
-	echo "unknown system"
+Darwin)
+	echo Wow, Mac
+;;
+*) 
+    echo Other System
 ;;
 esac
